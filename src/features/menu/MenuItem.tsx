@@ -1,4 +1,4 @@
-import { formatCurrency } from "@/src/utils/helpers";
+import { formatCurrency } from "@/utils/helpers";
 
 interface MenuItemProps {
   pizza: any;

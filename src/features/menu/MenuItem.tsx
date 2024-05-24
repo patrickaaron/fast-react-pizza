@@ -1,7 +1,9 @@
+import { Pizza } from "@/types";
+
 import { formatCurrency } from "@/utils/helpers";
 
 interface MenuItemProps {
-  pizza: any;
+  pizza: Pizza;
 }
 
 function MenuItem({ pizza }: MenuItemProps) {
